@@ -12,7 +12,6 @@
     width: 400px;
     height: 100px;
     margin: auto;
-
   }
 
   p{
@@ -26,36 +25,72 @@
     background-color: rgb(212, 146, 177);
     width: 400px;
     height: 100px;
-    margin: auto;
   }
+
 
   strong{
     background-color: rgb(117, 161, 218);
-    width: 400px;
-    height: 100px;
-    margin: auto;
-    padding-left: 30px;
 
   }
 
+  .image{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(246, 178, 154);
+    text-align: center;
+    font-size: 0;
 
+
+  }
+
+  img{
+    width: 100%;
+  }
+
+  .description{
+
+
+    /* display: inline-block; */
+    height:70px;
+
+    padding-top: 19px;
+    box-sizing: border-box;
+    background-color: #edcece;
+  }
+
+.image .text{
+  /* display: inline-block; */
+  background-color: rgba(59, 34, 52, 0);
+  width:auto;
+  font-family: monospace;
+  font-size: 30px;
+  white-space: nowrap;
+
+}
+
+.last{
+  margin-top: 100px;
+}
 
   </style>
 
 </head>
 <body>
 
-<div> div
+<div> div 是block屬性 佔一塊空間</div>
+
+<p> ppp文字 是block屬性 佔一塊空間 </p>
+<span>padding inline屬性 內容多大就大</span>
+
+<strong> strong inline屬性 內容多大就大 </strong>
+<div class="image">
+  <img src="http://fakeimg.pl/500x200/bdd9d2/3f232a/?text=Fake-Image">
+  <div class="image description"><div class="text">Image description</div></div>
+</div>
+
+<div class="last">jkjlk
 
 </div>
-<p> ppp文字</p>
-<span>spangkhgjhgk jhgk jhgk jh</span>
 
-<strong>strong</strong>
-<img src="http://fakeimg.pl/350x200/bdd9d2/3f232a/?text=Fake-Image">
-Image
-<div class="">all
-
-</div>
 </body>
 </html>
