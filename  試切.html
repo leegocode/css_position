@@ -6,45 +6,63 @@
 
   <style>
 
-    *{
-      margin: 0;
-      padding: 0;
-    }
-
-
-    .wrap{
-      background-color:rgb(246, 103, 125);
-
-    }
-
-    .container{
-      background-color: rgb(201, 184, 136);
-      margin: auto;
-      width: 700px;
-      height: 700px;
-      text-align: center;
-    }
-
-  .title{
-    background-color: rgb(76, 134, 98);
-    height: 200px;
+  *{
+    margin: 0;
+    padding: 0;
   }
 
+
+  .wrap{
+    background-color:rgb(246, 103, 125);
+
+  }
+
+  .container{
+    background-color: rgb(201, 184, 136);
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    text-align: center;
+  }
+
+  .title{
+    background-color: rgb(224, 224, 224);
+    height: 200px;
+
+  }
+
+.text{
+  display: inline-block;
+  margin-top: 100px;
+  border-bottom: 2px solid rgb(215, 33, 66);
+}
+
+
   .items{
-  background-color: #ebaaaa;
-  height:500px;
-  width: 700px;
-  display:flex;
-  justify-content: space-between;
+    background-color: #d6d6d6;
+    height:300px;
+    width: 700px;
+    display:flex;
+    justify-content: space-around;
 
   }
   .item{
-  width: 100px;
-  height: 300px;
-  border: 1px solid rgb(3, 9, 2);
-  background-color: #28a899;
+    width: 150px;
+    height: 200px;
+    /* border: 1px solid rgb(3, 9, 2); */
+    background-color: #d6d6d6;
+    border: 1px solid;
+    padding: 50px 3px;
+    box-sizing: border-box;
+
 
   }
+
+.items img{
+  width: 100%;
+
+}
+
   </style>
 
 
@@ -54,14 +72,17 @@
   <div class="wrap">
     <div class="container">
       <div class="title">
-        <h1>title</h1>
+        <div class="text">
+          <h1>title</h1>
+        </div>
+
 
       </div>
       <div class="items">
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
+        <div class="item"><img src="http://fakeimg.pl/350x200/bdd9d2/3f232a/?text=Fake-Image"></div>
+        <div class="item"><img src="http://fakeimg.pl/350x200/bdd9d2/3f232a/?text=Fake-Image"></div>
+        <div class="item"><img src="http://fakeimg.pl/350x200/bdd9d2/3f232a/?text=Fake-Image"></div>
+        <div class="item"><img src="http://fakeimg.pl/350x200/bdd9d2/3f232a/?text=Fake-Image"></div>
       </div>
       </div>
 
